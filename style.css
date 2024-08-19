@@ -67,7 +67,7 @@
             border-radius: 20px;
         }
        header div img{
-       object-fit: cover;
+       object-fit: contain;
         width: 100%;
        padding: 0;
         
@@ -92,7 +92,7 @@
         }
 
         .navbar li a {
-            color: rgb(55, 57, 86);
+            color: white;
             text-decoration: none;
             padding: 10px;
             display: inline-block;
@@ -118,6 +118,7 @@
             color: #fff;
             border-radius: 54px;
             transition: background-color 0.3s;
+    
         }
 
         p {
@@ -127,7 +128,8 @@
         .contact button:hover {
             /* background-color: rgb(8, 131, 149); */
            color: rgb(78, 49, 170);
-           background: white;
+           background: black;
+           /* font-weight: 900; */
         }
 
         @media (max-width: 768px) {
@@ -186,10 +188,11 @@
             width: 30px;
             height: 30px;
             vertical-align: middle;
+            margin-top: 10px;
         }
 
         #education, p {
-            color: aqua;
+            color: white
         }
 
         .certificates {
@@ -213,14 +216,21 @@
             background:rgb(78, 49, 170);
             
         }
-        #deadpool
-        {
+        header {
+            background-image: url('WhatsApp\ Image\ 2024-08-18\ at\ 16.17.39_5d18832a.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 50vw;
+            height: 50vh;
             display: flex;
-            object-fit: cover;
+            flex-direction: column;
+            flex-wrap:wrap;
+            align-items: center;
+            justify-content: center;
+            
+            margin: 10px auto;
+           
+            
         }
-        header{
-            background-image: url('./deadpool.jpg');
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
+        
