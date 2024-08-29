@@ -25,6 +25,7 @@
             height: 200px;
             object-fit: cover;
             border-radius: 50%;
+            
             /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
             transition: transform 0.5s;
             box-shadow: 10px 10px 320px rgb(78, 49, 170),inset -10px 10px 20px rgb(78, 49, 170) ;
@@ -32,6 +33,9 @@
 
         .image-container img:hover {
             transform: scale(1.05);
+        
+            
+
         }
 
         h1 {
@@ -59,9 +63,8 @@
             border: 2px solid #fff;
             width: 70%;
             margin: 30px auto;
-            box-shadow: 0px 0px 4px 4px rgb(79, 69, 122);
-            /* background-color: #fff; */
-            /* background-image: url('./deadpool.jpg'); */
+            box-shadow: 0px 0px 4px 4px rgb(79, 69, 1);
+            
 
            
             border-radius: 20px;
@@ -70,12 +73,15 @@
        object-fit: contain;
         width: 100%;
        padding: 0;
+       position: fixed;
+    
         
        }
 
         .navbar {
             flex-grow: 1;
             text-align: center;
+            
         
         }
 
