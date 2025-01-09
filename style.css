@@ -331,7 +331,7 @@ header {
     text-decoration: none; /* No underline */
     display: inline-block; /* Inline block for button */
     font-size: 16px; /* Font size */
-    margin-left: 200px ; /* Margin around the button */
+    margin-left: 20px ; /* Margin around the button */
     cursor: pointer; /* Pointer cursor on hover */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
