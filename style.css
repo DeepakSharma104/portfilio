@@ -321,3 +321,23 @@ header {
 .project_video video:hover {
     transform: scale(1.05); /* Slightly enlarge the video on hover */
 }
+/* Style for the Download CV button */
+#download-cv button {
+    background-color: rgb(78, 49, 170); /* Match the primary color */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding for the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block for button */
+    font-size: 16px; /* Font size */
+    margin: 10px 0; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+#download-cv button:hover {
+    background-color: rgba(58, 244, 244, 0.8); /* Change to a lighter color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
