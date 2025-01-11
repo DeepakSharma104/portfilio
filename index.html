@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     </div>
     
     <h1>DEEPAK SHARMA</h1>
-    <h2>Welcome To My Portfolio</h2>
+    <h2 class= :.auto-type;>  </h2>
 
     <header>
         <nav class="navbar">
@@ -119,5 +120,13 @@
     </section>
     
     <h1>Thanks for visiting</h1>
+     <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["WELCOME", "TO", "MY PORTFOLIO!"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
 </body>
 </html>
